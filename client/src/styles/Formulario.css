@@ -1,0 +1,40 @@
+*{
+    align-items: center;
+    text-align: center;
+}
+
+.ContenFormulario {
+    color:black;
+    display: flex;
+    flex-direction: column;
+    /* border:1px solid black; */
+    padding: 20px  10px;
+    margin:10px 80px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.data{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    border: solid 0.5px rgba(204, 200, 200, 0.79);
+    margin: 5px;
+    padding:15px;
+    background-color: rgba(194, 189, 189, 0.825);
+}
+.datos{
+    width: 400px;
+    /* display: flex; */
+    flex-direction: column;
+    display: block;
+    align-content: center;
+    text-align: center;
+    padding: 2px  5px ;
+    margin:5px 8px;
+
+}
